@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Установка git
-echo "Устанавливаем git..."
-apt-get update
-apt-get install -y git
-
 # Клонирование репозитория
 echo "Клонируем репозиторий Xswitcher..."
 git clone https://github.com/VladUmas/Xswitcher
